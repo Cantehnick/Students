@@ -24,8 +24,16 @@ public class MainApp {
 		System.out.println("Average age students :" + sg.averageAge());
 		System.out.println("Count students in 2015 : " + sg.studentsYear(2015));
 		sg.countStudentsInYear();
-		sg.bableSort();
+		sg.bubleSort();
 		sg.infStudent();
+		sg.insertSort();
+		sg.infStudent();
+		sg.selectionSort();
+		sg.infStudent();
+		System.out.println("QuickSort");
+		sg.quickSort(0, sg.getCount() - 1);
+		sg.infStudent();
+
 	}
 
 }
